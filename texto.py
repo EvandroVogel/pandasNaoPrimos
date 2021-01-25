@@ -21,4 +21,4 @@ pd.set_option('display.max_rows', None)
 
 df = pd.DataFrame(a)
 display(df.rename(columns={0: 'Primeiro Valor',1: 'Segundo Valor',2: 'Produto',
-                          3: 'Resto da Divisao', 4: 'Parte Inteira da Divisao'}))
+                          3: 'Parte Inteira da Divisao', 4: 'Resto da Divisao'}))
